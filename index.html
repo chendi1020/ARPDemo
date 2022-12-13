@@ -17,72 +17,21 @@
             
         }
 
-        
-
-        .banner {
-            /* background-color: grey;
-            color: white;
-            padding: 10px; */
-            background-image: url("desktop header.png");
-            background-repeat: no-repeat;
-            background-position: center ;
-            background-size: contain;
-            height: 110px;
-            /* background-size: 970px 100px; */
-            position: relative;
-
-       
-        }
-
-        a.button1 {
-            display: inline-block;
-            padding: 0.35em 1.2em;
-            border: 0.1em solid #008dd9;
-            margin: 0 0.3em 0.3em 0;
-            border-radius: 0.12em;
-            box-sizing: border-box;
-            text-decoration: none;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 300;
-            color: white;
-            background-color: #0c3863;
-            text-align: center;
-            transition: all 0.2s;
-            position: absolute;
-            right: 5%;
-            top: 40%;
-            z-index: 1;
-            float: right ;
-            
-          
-           
-        }
-
-        a.button1:hover {
-            color: #000000;
-            background-color: #FFFFFF;
-        }
+     
     </style>
 </head>
 
 <body>
 
-    <div class="banner" id="banner1">
-        <div>
-            <!-- <h3>ARPA Data and Evidence Dashboard</h3> -->
-        
-                <a href="https://results4america.org/wp-content/uploads/2021/08/ARPA-5-Provisions-Final.pdf"
-                    class="button1" id="btn">Learn More</a>
-           
-        </div>
-    </div>
+ 
 
   
 
     <div style="text-align:center" id='viz1637790510158'>
 
         <iframe frameborder="0" marginheight="0" marginwidth="0" scrolling="no"
-            src="https://public.tableau.com/views/desktop_16593830862320/Dashboard1?:embed=y&:display_count=yes&:showTabs=n&:showVizHome=no&:tabs=no"
+            src="https://public.tableau.com/views/RFANovDraft/InvestmentSpending?:embed=y&:display_count=yes&:showTabs=n&:showVizHome=no&:tabs=no"
+            
             style='width: 1000px; height: 800px;   '>
         </iframe>
 
@@ -98,9 +47,10 @@ type='text/javascript'>
 var divElement = document.getElementById('viz1637790510158'); 
 var vizElement =divElement.getElementsByTagName('iframe')[0]; 
 
-if (divElement.offsetWidth > 500) { vizElement.style.width = '1000px';vizElement.style.height = '800px'; } 
+if (divElement.offsetWidth > 500) { vizElement.style.width = '1000px';vizElement.style.height = '1500px'; } 
 else { vizElement.style.width = '375px'; vizElement.style.height = '667px';
 vizElement.src="https://public.tableau.com/views/mobile_16579313941090/Dashboard1?:embed=y&:display_count=yes&:showTabs=n&:showVizHome=no&:tabs=no"; 
+
 document.getElementById('banner1').style.backgroundImage= "url('mobile header2.png')";
 document.getElementById('banner1').style.height= "120px";
 document.getElementById('banner1').style.backgroundSize= "370px 120px";
@@ -114,18 +64,3 @@ var scriptElement = document.createElement('script'); scriptElement.src =
 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
     
-<!-- <script
-type='text/javascript'>
-var divElement = document.getElementById('viz1637790510158'); 
-var vizElement =divElement.getElementsByTagName('iframe')[0]; 
-if (divElement.offsetWidth > 800) { vizElement.style.width = '1200px';vizElement.style.height = '3027px'; } 
-else if (divElement.offsetWidth > 500) { vizElement.style.width = '1024px';vizElement.style.height = '3127px';         
-vizElement.src="https://public.tableau.com/views/CostTrends_16521046772390/MapViewPMPM?:embed=y&:display_count=yes&:showTabs=n&:showVizHome=no"                                                  
- } 
- else { vizElement.style.width = '350px'; vizElement.style.height = '4727px';vizElement.src="https://public.tableau.com/views/mobile_16579313941090/Dashboard1?:embed=y&:display_count=yes&:showTabs=n&:showVizHome=no";  } var
-scriptElement = document.createElement('script'); scriptElement.src =
-'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script> -->
-
-
-</html>
